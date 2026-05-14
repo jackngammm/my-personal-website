@@ -69,7 +69,6 @@ const STATUS_STYLES: Record<
   Demo: { bg: "rgba(240,237,232,0.08)", color: "#6b6660", border: "rgba(240,237,232,0.12)" },
   "In Progress": { bg: "rgba(240,237,232,0.08)", color: "#6b6660", border: "rgba(240,237,232,0.12)" },
   Research: { bg: "rgba(240,237,232,0.08)", color: "#6b6660", border: "rgba(240,237,232,0.12)" },
-  "Coming Soon": { bg: "rgba(240,237,232,0.08)", color: "#6b6660", border: "rgba(240,237,232,0.12)" },
 };
 
 function DeploymentCard({ project, index }: { project: Deployment; index: number }) {

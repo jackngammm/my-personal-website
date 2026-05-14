@@ -77,6 +77,7 @@ export default function Certifications() {
           style={{ display: "flex", gap: IMG_GAP, width: `${TRACK_WIDTH * 2}px`, alignItems: "center" }}
         >
           {LOOPED.map((cert, i) => (
+            // eslint-disable-next-line @next/next/no-img-element
             <img
               key={i}
               src={encodeURI(cert.imagePath)}
