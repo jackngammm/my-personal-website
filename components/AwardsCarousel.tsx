@@ -81,7 +81,7 @@ export default function EducationSection() {
               marginBottom: 28,
             }}
           >
-            2023 — 2027
+            2022 — 2026
           </p>
 
           <div>
